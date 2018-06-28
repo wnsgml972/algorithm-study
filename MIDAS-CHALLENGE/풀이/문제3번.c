@@ -1,0 +1,66 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+	int N;
+
+	char **path;
+	char present;
+
+	int i = 0;
+	int result = 0;
+	int cnt = 0, cnt_ddd = 0;
+	char val = '\0';
+
+	char ddd;
+
+	scanf("%d", &N);
+
+	path = (char **)malloc(sizeof(char *)*N);
+	for (i = 0; i < N; i++) {
+		path[i] = (char *)malloc(sizeof(char) * 4);
+	}
+
+	for (i = 0; i < N; i++) {
+		scanf("%s", path[i]);
+	}
+	while ((getchar() != '\n'));
+	scanf("%c", &ddd);
+
+	i = 0;
+	present = 'A';
+
+	for (i = 0; i < N; i++) {
+		if (present == path[i][0]) {
+			present = path[i][2];
+			if (ddd == path[i][2])
+				cnt_ddd++;
+			cnt++;
+			if (present == 'Z') {
+				val = path[i][0];
+			}
+			continue;
+		}
+	}
+	if (cnt == 0) {
+		result = -1;
+	}
+	if (cnt_ddd == 0) {
+		result = -1;
+	}
+
+	if (i > N) {
+		result = -1;
+	}
+
+	if (result == -1)
+	{
+		printf("%d\n", result);
+	}
+	else {
+		printf("%d\n", cnt);
+	}
+
+
+}
