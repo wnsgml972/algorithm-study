@@ -35,20 +35,4 @@
 
 ## 2018.07.02
 :heavy_check_mark:
-* [정수 정렬하기] __qsort, 이차원배열동적할당__ [Codeground](/content/codeground/연습문제/정수-정렬하기.md)
-<!--* [#issue1-1] Comparable, Comparator 사용 예제
-* [#issue2] Java 언어를 이용하여 정렬할 때 시간초과 문제
-* [#issue3] List와 ArrayList의 차이
-* [#issue3-1] 업캐스팅, 다운캐스팅이란
-* [#issue4] Arrays.sort()와 Collections.sort()의 차이
-* [#issue5] BufferedReader/BufferedWriter, InputStreamReader/OutputStreamWriter의 차이
-* [#issue6] String, StringBuilder, StringBuffer의 차이
-* [#issue7] counting sort(계수정렬)의 개념 및 시간복잡도
-* [#issue8] java Map 인터페이스 구현체의 종류
-* [#issue8-1] Java Collections Framework
-* [#issue9] java 자료형의 범위 (ex. Integer, Long, BigInteger, BigDecimal)
-* [#issue9-1] 입력값 조건에 따른 java 자료형 선택 방법
-* [#issue10] 문자열 분리를 위한 StringTokenizer와 String.spilt의 차이
-* [#issue10-1] 문자열 분리를 위한 StringTokenizer와 String.spilt의 사용 예제
-* [#issue11] BufferedReader/Scanner, Arrays.sort()/Collections.sort()에 따른 시간복잡도 분석
--->
+* [정수 정렬하기] __qsort, 이차원배열동적할당__ [Codeground](/contents/codeground/2018-07-02/정수-정렬하기.md)
