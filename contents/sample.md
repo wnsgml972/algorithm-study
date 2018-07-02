@@ -4,6 +4,8 @@
 ### 알고리즘 이론 :
 쉽다.
 
+<hr>
+
 ### 문제 :
 쉽다.
 
@@ -25,14 +27,17 @@
 
 #### 점수 : 100점
 
+<hr>
 
 ### issue
 쉽다.
 
+<hr>
 
 ### 좋은 예제
 쉽다.
 
+<hr>
 
 ### 링크
 * <https://www.codeground.org/practice/practiceProblemViewNew>
