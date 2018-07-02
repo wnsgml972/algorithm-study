@@ -35,7 +35,7 @@
 
 ## 2018.07.02
 :heavy_check_mark:
-* [정수 정렬하기] qsort, 이차원 배열 동적할당 [Codeground](/codeground/정수-정렬하기.md)
+* [정수 정렬하기] __qsort, 이차원배열동적할당__ [Codeground](/content/codeground/연습문제/정수-정렬하기.md)
 <!--* [#issue1-1] Comparable, Comparator 사용 예제
 * [#issue2] Java 언어를 이용하여 정렬할 때 시간초과 문제
 * [#issue3] List와 ArrayList의 차이
