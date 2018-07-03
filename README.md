@@ -9,6 +9,7 @@
 ## Study Rule
 * Github를 통한 코드 공유 및 피드백
     * Tag를 남겨 기억이 나지 않는 부분을 찾기 쉽도록 한다.    
+    * 알고리즘 시험의 경우, Tag는 CodingTest
 * 주 단위 기록
     * 항상 날짜는 주 단위로 기록한다. (월요일부터 시작)
 * 할 일
@@ -28,6 +29,12 @@
 ## 2018.07.02
 :heavy_check_mark:
 * [정수 정렬하기] __qsort, 이차원배열동적할당__ [Codeground](/contents/codeground/2018-07-02/정수-정렬하기.md)
+* [계정 만들기] __Coding Test__ [MIDAS CHALLENGE](/contents/midas-challenge/풀이/1번.md)
+* [전자메일주소] __CodingTest__ [MIDAS CHALLENGE](/contents/midas-challenge/풀이/2번.md)
+* [인류의 마지막 여행] __CodingTest__ [MIDAS CHALLENGE](/contents/midas-challenge/풀이/3번.md)
+* [활성화 코드 만들기] __CodingTest__ [MIDAS CHALLENGE](/contents/midas-challenge/풀이/4번.md)
+* [삼항 연산자] __CodingTest__ [MIDAS CHALLENGE](/contents/midas-challenge/풀이/5번.md)
+* [가장 큰 영역 찾기] __CodingTest__ [MIDAS CHALLENGE](/contents/midas-challenge/풀이/6번.md)
 
 
 
