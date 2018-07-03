@@ -36,7 +36,8 @@
 * [활성화 코드 만들기] __CodingTest__ [MIDAS CHALLENGE](/contents/midas-challenge/풀이/4번.md)
 * [삼항 연산자] __CodingTest__ [MIDAS CHALLENGE](/contents/midas-challenge/풀이/5번.md)
 * [가장 큰 영역 찾기] __CodingTest__ [MIDAS CHALLENGE](/contents/midas-challenge/풀이/6번.md)
-<br/>:heavy_check_mark:
+
+:heavy_check_mark:
 * [정수 정렬하기] __qsort, 이차원배열동적할당__ [Codeground](/contents/codeground/2018-07-02/정수-정렬하기.md)
 
 
