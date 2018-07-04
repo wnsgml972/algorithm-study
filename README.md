@@ -1,6 +1,6 @@
 # algorithm-study
 
-## Development environment
+## Development Environment
 * Programming Language
     * C++
 * IDE
@@ -30,12 +30,12 @@
 
 ## 2018.07.02
 :memo:
-* [계정 만들기] __CodingTest__ [MIDAS CHALLENGE](/contents/midas-challenge/풀이/1번.md)
-* [전자메일주소] __CodingTest__ [MIDAS CHALLENGE](/contents/midas-challenge/풀이/2번.md)
-* [인류의 마지막 여행] __CodingTest__ [MIDAS CHALLENGE](/contents/midas-challenge/풀이/3번.md)
-* [활성화 코드 만들기] __CodingTest__ [MIDAS CHALLENGE](/contents/midas-challenge/풀이/4번.md)
-* [삼항 연산자] __CodingTest__ [MIDAS CHALLENGE](/contents/midas-challenge/풀이/5번.md)
-* [가장 큰 영역 찾기] __CodingTest__ [MIDAS CHALLENGE](/contents/midas-challenge/풀이/6번.md)
+* [계정 만들기] __CodingTest__ [2018 MIDAS CHALLENGE 1번](/contents/midas-challenge/풀이/1번.md)
+* [전자메일주소] __CodingTest__ [2018 MIDAS CHALLENGE 2번](/contents/midas-challenge/풀이/2번.md)
+* [인류의 마지막 여행] __CodingTest__ [2018 MIDAS CHALLENGE 3번](/contents/midas-challenge/풀이/3번.md)
+* [활성화 코드 만들기] __CodingTest__ [2018 MIDAS CHALLENGE 4번](/contents/midas-challenge/풀이/4번.md)
+* [삼항 연산자] __CodingTest__ [2018 MIDAS CHALLENGE 5번](/contents/midas-challenge/풀이/5번.md)
+* [가장 큰 영역 찾기] __CodingTest__ [2018 MIDAS CHALLENGE 6번](/contents/midas-challenge/풀이/6번.md)
 
 :heavy_check_mark:
 * [정수 정렬하기] __qsort, 이차원배열동적할당__ [Codeground](/contents/codeground/2018-07-02/정수-정렬하기.md)
