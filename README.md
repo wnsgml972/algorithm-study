@@ -32,15 +32,19 @@
 :memo:
 * [계정 만들기] __CodingTest__ [2018 MIDAS CHALLENGE 1번](/contents/midas-challenge/풀이/1번.md)
 * [전자메일주소] __CodingTest__ [2018 MIDAS CHALLENGE 2번](/contents/midas-challenge/풀이/2번.md)
-* [인류의 마지막 여행] __CodingTest__ [2018 MIDAS CHALLENGE 3번](/contents/midas-challenge/풀이/3번.md)
+* [인류의 마지막 여행] __CodingTest, 이차원배열동적할당__ [2018 MIDAS CHALLENGE 3번](/contents/midas-challenge/풀이/3번.md)
 * [활성화 코드 만들기] __CodingTest__ [2018 MIDAS CHALLENGE 4번](/contents/midas-challenge/풀이/4번.md)
 * [삼항 연산자] __CodingTest__ [2018 MIDAS CHALLENGE 5번](/contents/midas-challenge/풀이/5번.md)
 * [가장 큰 영역 찾기] __CodingTest__ [2018 MIDAS CHALLENGE 6번](/contents/midas-challenge/풀이/6번.md)
 
 :heavy_check_mark:
-* [정수 정렬하기] __qsort, 이차원배열동적할당__ [Codeground](/contents/codeground/2018-07-02/정수-정렬하기.md)
+* [정수 정렬하기] __qsort__ [Codeground](/contents/codeground/2018-07-02/정수-정렬하기.md)
 
+## 2018.07.16
+:memo:
+* [카카오프렌즈 컬러링북] __CodingTest, Flood Fill, Stack, 미로 찾기__ [2017 kakao code festival](/contents/2017-cacao-code-festival/1번.md)
 
+:heavy_check_mark:
 
 <!--    * 공유 및 피드백
         1. 각자가 푼 문제에 대한 코드를 feature branch를 따서 github에 push한 후 pull request를 날린다.
