@@ -9,7 +9,7 @@
 ## Study Rule
 * Github를 통한 코드 공유 및 피드백
     * Tag를 남겨 기억이 나지 않는 부분을 찾기 쉽도록 한다.    
-    * 알고리즘 시험의 경우, Tag는 CodingTest이다.
+    * 실제 본 시험의 경우, Tag는 CodingTest이다.
 * 주 단위 기록
     * 항상 날짜는 주 단위로 기록한다. (월요일부터 시작)
 * 시험과 연습을 분리
@@ -42,7 +42,7 @@
 
 ## 2018.07.16
 :memo:
-* [카카오프렌즈 컬러링북] __CodingTest, Flood Fill, Stack, 미로 찾기__ [2017 kakao code festival](/contents/2017-cacao-code-festival/1번.md)
+* [카카오프렌즈 컬러링북] __Flood Fill, Stack, 미로 찾기__ [2017 kakao code festival](/contents/2017-cacao-code-festival/1번.md)
 
 :heavy_check_mark:
 
