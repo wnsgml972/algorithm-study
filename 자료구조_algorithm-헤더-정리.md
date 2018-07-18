@@ -42,6 +42,7 @@
 
 
 <br/>
+
 ## <a id="stack">stack</a>
 
 ### stack 기본 함수
@@ -62,6 +63,7 @@
 
 
 <br/>
+
 ## <a id="queue">queue</a>
 
 ### queue 기본 함수
@@ -84,6 +86,7 @@
 
 
 <br/>
+
 ## <a id="deque">deque(덱)</a>
 
 ### deque 기본 함수
@@ -116,6 +119,7 @@
 
 
 <hr>
+
 ## <a id="min">min</a>
 
 ### 설명
