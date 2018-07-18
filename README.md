@@ -38,7 +38,7 @@
 * [가장 큰 영역 찾기] __CodingTest__ [2018 MIDAS CHALLENGE 6번](/contents/2018-07-02/midas-challenge/풀이/6번.md)
 
 :heavy_check_mark:
-* [정수 정렬하기] __qsort__ [Codeground](/contents/2018-07-02/codeground/2018-07-02/정수-정렬하기.md)
+* [정수 정렬하기] __qsort(C)__ [Codeground](/contents/2018-07-02/codeground/2018-07-02/정수-정렬하기.md)
 
 ## 2018.07.16
 :memo:
