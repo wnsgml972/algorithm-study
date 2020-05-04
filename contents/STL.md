@@ -1,190 +1,36 @@
+# STL
 
-## 자료구조, algorithm 헤더 정리
+## [STL Sort](#stlsort)
+* [std::sort](#std-sort)
+* [std::stable_sort](#std-sort)
+* [std::inplace_merge](#std-sort), [std::merge](#std-sort)
+* [std::partial_sort](#std-sort)
+* [std::nth_element](#std-sort)
+* [std::is_sorted](#std-sort)
 
-### 자료구조
+## [STL Partition](#stlsort)
+* [std::partition](#std-sort)
+* [std::stable_partition](#std-sort)
+* [std::partition_point](#std-sort)
 
-* [vecto](#vector), [stack](#stack), [queue](#queue), [deque(덱)](#deque)
+## [STL Permutation](#stlsort)
+* [std::next_permutation](#std-sort), [std::prev_permutation](#std-sort)
+* [std::rotate](#std-sort)
+* [std::random_shuffle](#std-sort), [std::shuffle](#std-sort)
 
-### algorithm 함수
-
-* [min](#min), [max](#max), [swap](#swap), [sort](#sort), [fill](#fill), [count](#count), [remove](#remove), [replace](#replace), [find](#find)
-
+## algorithm etc
+* [min](#min), [max](#max)
+* [swap](#swap)
+* [fill](#fill)
+* [count](#count)
+* [remove](#remove)
+* [replace](#replace)
+* [find](#find)
 * 각각의 ```_if``` 함수가 존재하는 것들은 따로 함수를 만들어 함수 포인터를 매개 변수로 넣어주면 된다.
 
-<hr>
-
-
-## <a id="vector">vector</a>
-
-### vector 기본 함수
-
-#### 추가
-
-* ```push_back(element)``` : end에 요소를 추가
-* ```insert(v.begin()+3, element)``` : 3번째 인덱스에 요소를 추가, 그 뒤의 요소는 뒤로 밀림
-
-#### 삭제
-
-* __벡터의 삭제는 항상! 뒤에서 구현할 것, 여러개 삭제 시 인덱스가 꼬이기 때문__
-
-* ```pop_back()``` : end에 있는 요소를 삭제
-* ```q = erase(v.begin()+3)``` : 3번째 인덱스의 요소 삭제, q는 다음번 요소를 가리킴
-* ```clear()``` : 벡터의 모든 요소 삭제
-
-
-#### 조회
-
-* ```at(index)``` : index에 있는 __요소를__ 반환
-* ```begin(), end()``` : 각각 첫 번째와 마지막 __포인터__ 반환
-
-#### 기타
-
-* ```empty()``` : 벡터가 비어있으면 true 아니면 false를 반환
-* ```size()``` : 벡터 사이즈를 반환
-
-
-
 <br/>
 
-## <a id="stack">stack</a>
-
-### stack 기본 함수
-
-#### 추가 및 삭제
-
-* ```push(element)``` : top에 요소를 추가
-* ```pop()``` : top에 있는 요소를 삭제
-
-#### 조회
-
-* ```top()``` : top(스택의 처음이 아닌 가장 끝)에 있는 요소를 반환
-
-#### 기타
-
-* ```empty()``` : 스택이 비어있으면 true 아니면 false를 반환
-* ```size()``` : 스택 사이즈를 반환
-
-
-<br/>
-
-## <a id="queue">queue</a>
-
-### queue 기본 함수
-
-#### 추가 및 삭제
-
-* ```push(element)``` : front에 요소를 추가
-* ```pop()``` : back에 있는 요소를 삭제
-
-#### 조회
-
-* ```front()``` : 큐 제일 앞에 있는 요소를 반환
-* ```back()``` : 큐 제일 뒤에 있는 요소를 반환
-
-#### 기타
-
-* ```empty()``` : 큐가 비어있으면 true 아니면 false를 반환
-* ```size()``` : 큐 사이즈를 반환
-
-
-
-<br/>
-
-## <a id="deque">deque(덱)</a>
-
-### deque 기본 함수
-
-#### 추가
-
-* ```push_front(element)``` : front에 요소를 추가
-* ```push_back(element)``` : back에 요소를 추가
-* ```pop_front()``` : front에 있는 요소를 삭제
-* ```pop_back()``` : back에 있는 요소를 삭제
-* ```insert(dq.begin()+3, element)``` : 3번째 인덱스에 요소를 추가, 그 뒤의 요소는 뒤로 밀림
-
-#### 삭제
-
-* ```q = erase(dq.begin()+3)``` 3번째 있는 요소 삭제, q는 다음번 요소를 가리킴
-* ```clear()``` : 덱의 모든 요소 삭제
-
-#### 조회
-
-* ```front()``` : front에 있는 __요소를__ 반환
-* ```back()``` : back에 있는 __요소를__ 반환
-* ```at(index)``` : index에 있는 __요소를__ 반환
-* ```begin(), end()``` : 각각 첫 번째와 마지막 __포인터__ 반환
-
-#### 기타
-
-* ```empty()``` : 덱이 비어있으면 true 아니면 false를 반환
-* ```size()``` : 덱 사이즈를 반환
-
-
-
-<hr>
-
-## <a id="min">min</a>
-
-### 설명
-
-* 작은 값 반환
-
-
-## <a id="max">max</a>
-
-### 설명
-
-* 큰 값 반환
-
-
-## <a id="swap">swap</a>
-
-### 설명
-
-* 값을 바꿈
-
-
-
-<br/>
-
-## <a id="sort">sort</a>
-
-### 설명
-
-* 내림차순, 오름차순 정렬
-
-### 예제
-
-<pre>
-
-#include iostream
-#include algorithm
-#include vector
-
-using namespace std;
-
-int main(void)
-{
-	vector"int" v;
-
-	v.push_back(5);	v.push_back(3);
-	v.push_back(2);	v.push_back(34);
-	v.push_back(3);	v.push_back(355);
-	v.push_back(0);	v.push_back(-5);
-	v.push_back(-11);	v.push_back(36);
-
-	sort(v.begin(), v.end());	             // 오름차순
-	sort(v.begin(), v.end(), greater"int"()); // 내림차순
-
-	for (int i = 0; i < v.size(); i++) {
-		cout << v.at(i) << endl;
-	}
-}
-</pre>
-
-
-
-<br/>
+# Example
 
 ## <a id="fill">fill</a>
 
