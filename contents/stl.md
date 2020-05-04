@@ -1,10 +1,10 @@
 # STL
 
 ## stl containers
-* [sequence containers](#sequence_containers)
-* [associative containers](#associative_containers)
-* [unordered associative containers](#unordered_associative_containers)
-* [container adaptor](#container_adaptor)
+* [sequence containers](#sequence_containers) ([std::array](#array), [std::vector](#vector), [std::deque](#deque), [std::foward_list](#foward_list), [std::list](#list))
+* [associative containers](#associative_containers) ([std::set](#set), [std::multiset](#multiset), [std::map](#map), [std::multimap](#multimap))
+* [unordered associative containers](#unordered_associative_containers) ([std::unordered_set](#unordered_set), [std::unordered_multiset](#unordered_multiset), [std::unordered_map](#unordered_map), [std::unordered_multimap](#unordered_multimap))
+* [container adaptor](#container_adaptor) ([std::stack](#stack), [std::queue](#queue), [std::priority_queue](#priority_queue))
 
 <br/>
 
@@ -88,8 +88,11 @@
 * 단점 : 
 * 사용처 예시 : 
 
+
+<br/>
+
 ## <a id="associative_containers">associative containers</a>
-### std::map
+### std::set
 * 장점 : 
 * 단점 : 
 * 사용처 예시 : 
@@ -113,7 +116,7 @@
 <br/>
 
 ## <a id="unordered_associative_containers">unordered associative containers</a>
-### std::unordered_map
+### std::unordered_set
 * 장점 : 
 * 단점 : 
 * 사용처 예시 : 
