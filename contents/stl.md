@@ -61,59 +61,193 @@
 <br/><br/>
 <hr/>
 
-## stl containers
-
 # stl containers
 ## <a id="sequence_containers">sequence containers</a>
+### std::array
+* 장점 : 
+* 단점 : 
+* 사용처 예시 : 
+
+### std::vector
+* 장점 : 
+* 단점 : 
+* 사용처 예시 : 
+
+### std::deque
+* 장점 : 
+* 단점 : 
+* 사용처 예시 : 
+
+### std::foward_list
+* 장점 : 
+* 단점 : 
+* 사용처 예시 : 
+
+### std::list
+* 장점 : 
+* 단점 : 
+* 사용처 예시 : 
+
 ## <a id="associative_containers">associative containers</a>
+### std::map
+* 장점 : 
+* 단점 : 
+* 사용처 예시 : 
+
+### std::multiset
+* 장점 : 
+* 단점 : 
+* 사용처 예시 : 
+
+### std::map
+* 장점 : 
+* 단점 : 
+* 사용처 예시 : 
+
+### std::multimap
+* 장점 : 
+* 단점 : 
+* 사용처 예시 : 
+
+
+<br/>
+
 ## <a id="unordered_associative_containers">unordered associative containers</a>
-## <a id="container_adaptor">container adaptor</a>
+### std::unordered_map
+* 장점 : 
+* 단점 : 
+* 사용처 예시 : 
+
+### std::unordered_multiset
+* 장점 : 
+* 단점 : 
+* 사용처 예시 : 
+
+### std::unordered_map
+* 장점 : 
+* 단점 : 
+* 사용처 예시 : 
+
+### std::unordered_multimap
+* 장점 : 
+* 단점 : 
+* 사용처 예시 : 
 
 
 
 <br/>
 
+## <a id="container_adaptor">container adaptor</a>
+### std::stack
+* 장점 : 
+* 단점 : 
+* 사용처 예시 : 
+
+### std::queue
+* 장점 : 
+* 단점 : 
+* 사용처 예시 : 
+
+### std::priority_queue
+* 장점 : 
+* 단점 : 
+* 사용처 예시 : 
+
+
+<br/><br/>
+
 # `heap, sort, partition` util naming
 ## <a id="stable_*">std::stable_*</a>
+
+
+<br/>
+
 ## <a id="is_*">std::is_*</a>
+
+
+<br/>
+
 ## <a id="is_*_until">std::is_*_until</a>
 
 
 
-<br/>
+<br/><br/>
 
 # heap (std::priority_queue)
 ## <a id="heap_overview">heap overview</a>
+
+
+<br/>
+
 ## <a id="priority_queue">std::priority_queue</a>
 
 
-<br/>
+<br/><br/>
 
 # sort
 ## <a id="sort">std::sort</a>
+
+
+<br/>
+
 ## <a id="stable_sort">std::stable_sort</a>
+
+
+<br/>
+
 ## <a id="inplace_merge">std::inplace_merge</a>, <a id="merge">std::merge</a>
+
+
+<br/>
+
 ## <a id="partial_sort">std::partial_sort</a>
+
+
+<br/>
+
 ## <a id="nth_element">std::nth_element</a>
+
+
+<br/>
+
 ## <a id="is_sorted">std::is_sorted</a>
 
 
-<br/>
+<br/><br/>
 
 # partition
 ## <a id="partition">std::partition</a>
+
+
+<br/>
+
 ## <a id="stable_partition">std::stable_partition</a>
+
+
+<br/>
+
 ## <a id="partition_point">std::partition_point</a>
 
 
-<br/>
+<br/><br/>
 
 # permutation
 ## <a id="next_permutation">std::next_permutation</a>, <a id="prev_permutation">std::prev_permutation</a>
-## <a id="rotate">std::rotate</a>
-## <a id="random_shuffle">std::random_shuffle</a>, <a id="shuffle">std::shuffle</a>
+
 
 <br/>
+
+## <a id="rotate">std::rotate</a>
+
+
+<br/>
+
+## <a id="random_shuffle">std::random_shuffle</a>, <a id="shuffle">std::shuffle</a>
+
+
+
+
+<br/><br/>
 
 # algorithm etc
 
