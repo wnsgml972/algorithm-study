@@ -64,10 +64,10 @@
 ## stl containers
 
 # stl containers
-## <a id="sequence_containers*">sequence containers</a>
-## <a id="associative_containers*">associative containers</a>
-## <a id="unordered_associative_containers*">unordered associative containers</a>
-## <a id="container_adaptor*">container adaptor</a>
+## <a id="sequence_containers">sequence containers</a>
+## <a id="associative_containers">associative containers</a>
+## <a id="unordered_associative_containers">unordered associative containers</a>
+## <a id="container_adaptor">container adaptor</a>
 
 
 
