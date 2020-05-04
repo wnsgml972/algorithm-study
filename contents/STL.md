@@ -1,6 +1,26 @@
 # STL
 
-## [STL Sort](#stlsort)
+## Common
+### `heap, sort, partition` util naming
+* [std::stable_*](#std-sort)
+* [std::is_*](#std-sort)
+* [std::is_*_until](#std-sort)
+
+### iterator adaptor
+* [std::stable_*](#std-sort)
+
+<br/>
+
+## heap
+* [heap overview](#std-sort)
+* [std::make_heap](#std-sort)
+* [std::push_heap](#std-sort)
+* [std::pop_heap](#std-sort)
+* [std::sort_heap](#std-sort)
+
+<br/>
+
+## sort
 * [std::sort](#std-sort)
 * [std::stable_sort](#std-sort)
 * [std::inplace_merge](#std-sort), [std::merge](#std-sort)
@@ -8,15 +28,21 @@
 * [std::nth_element](#std-sort)
 * [std::is_sorted](#std-sort)
 
-## [STL Partition](#stlsort)
+<br/>
+
+## partition
 * [std::partition](#std-sort)
 * [std::stable_partition](#std-sort)
 * [std::partition_point](#std-sort)
 
-## [STL Permutation](#stlsort)
+<br/>
+
+## permutation
 * [std::next_permutation](#std-sort), [std::prev_permutation](#std-sort)
 * [std::rotate](#std-sort)
 * [std::random_shuffle](#std-sort), [std::shuffle](#std-sort)
+
+<br/>
 
 ## algorithm etc
 * [min](#min), [max](#max)
@@ -28,7 +54,8 @@
 * [find](#find)
 * 각각의 ```_if``` 함수가 존재하는 것들은 따로 함수를 만들어 함수 포인터를 매개 변수로 넣어주면 된다.
 
-<br/>
+
+<br/><br/>
 
 # Example
 
@@ -40,7 +67,7 @@
 
 ### 예제
 
-<pre>
+~~~cpp
 #include iostream
 #include algorithm
 #include vector
@@ -60,8 +87,7 @@ int main(void)
 	fill(v.begin(), v.begin() + 5, 3); // 앞에서 5개까지 3으로 채움
 	fill(v.begin(), v.end(), 3); // 전부 3으로 채움
 }
-
-</pre>
+~~~
 
 
 
@@ -75,7 +101,7 @@ int main(void)
 
 ### 예제
 
-<pre>
+~~~cpp
 #include iostream
 #include algorithm
 #include vector
@@ -106,7 +132,7 @@ int main(void)
 	cout << count_if(v.begin(), v.end(), greater6) << endl;
 	// 6 이상의 수를 카운트
 }
-</pre>
+~~~
 
 
 
@@ -121,8 +147,7 @@ int main(void)
 
 ### 예제
 
-<pre>
-
+~~~cpp
 #include iostream
 #include algorithm
 #include vector
@@ -165,8 +190,7 @@ int main(void)
 		cout << v.at(i) << endl;
 	}
 }
-
-</pre>
+~~~
 
 
 
@@ -182,8 +206,7 @@ int main(void)
 
 ### 예제
 
-<pre>
-
+~~~cpp
 #include iostream
 #include algorithm
 #include vector
@@ -214,8 +237,7 @@ int main(void)
 		cout << v.at(i) << endl;
 	}
 }
-
-</pre>
+~~~
 
 
 
@@ -230,8 +252,7 @@ int main(void)
 
 ### 예제
 
-<pre>
-
+~~~cpp
 #include iostream
 #include algorithm
 #include vector
@@ -265,4 +286,4 @@ int main(void)
 	cout << "위치: " << position1 << endl;
 
 }
-</pre>
+~~~

@@ -6,6 +6,9 @@
 * IDE
     * Visual Studio 2017
 
+## STL Reference
+* [STL 정리](/contents/stl.md)
+
 ## Study Rule
 * Github를 통한 코드 공유 및 피드백
     * Tag를 남겨 기억이 나지 않는 부분을 찾기 쉽도록 한다.    
@@ -25,7 +28,8 @@
     * 회고
         * 해당 코드의 좋은 예제를 찾아서 분석한다.
         * 피드백과 좋은 예제를 통해 자신의 코드를 수정하여 다시 push한다.
-* [c++ 자료구조와 algorithm 함수 정리](/contents/자료구조_algorithm-헤더-정리.md)
+
+
 ---
 
 ## 2018.07.02
