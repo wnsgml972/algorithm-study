@@ -1,4 +1,4 @@
-# STL
+# Overview
 
 ## stl containers
 * [sequence containers](#sequence_containers) ([std::array](#array), [std::vector](#vector), [std::deque](#deque), [std::foward_list](#foward_list), [std::list](#list))
@@ -8,7 +8,7 @@
 
 <br/>
 
-## `heap, sort, partition` util naming
+## heap, sort, partition naming patterns
 * [std::stable_*](#stable_*)
 * [std::is_*](#is_*)
 * [std::is_*_until](#is_*_until)
@@ -46,10 +46,10 @@
 <br/>
 
 ## algorithm etc
-* [std::min](#min), [std::max](#max) // todo
-* [std::swap](#swap) // todo
-* [std::copy](#copy) // todo
-* [std::transform](#transform) // todo
+* [std::min](#min), [std::max](#max)
+* [std::swap](#swap)
+* [std::copy](#copy)
+* [std::transform](#transform)
 * [std::fill](#fill)
 * [std::count](#count)
 * [std::remove](#remove)
@@ -159,7 +159,7 @@
 
 <br/><br/>
 
-# `heap, sort, partition` util naming
+# heap, sort, partition naming patterns
 ## <a id="stable_*">std::stable_*</a>
 
 
@@ -268,7 +268,7 @@
 
 <br/>
 
-## <a id="copy">std::copy</a>
+## <a id="copy">std::copy, std::copy_if</a>
 ### 설명
 ### 예제
 
@@ -307,6 +307,7 @@ int main(void)
 	v.push_back(0);	v.push_back(-5);
 	v.push_back(-11);	v.push_back(36);
 
+	/* fill  */
 	fill(v.begin(), v.begin() + 5, 3); // 앞에서 5개까지 3으로 채움
 	fill(v.begin(), v.end(), 3); // 전부 3으로 채움
 }
